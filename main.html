@@ -6,9 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+	<style>
+		table{
+			border-collapse: collapse:
+			width: 80%;
+			margin: 20px auto;
+			font-family: Arial, sans-serif;
+		}
+		th, td{
+			border: 1px solid black ;
+			padding: 8px 15px;
+			text-align: center;
+		}
+		thead{
+			backgroung-color: aqua;
+			color: blue;
+		}
+		tbody tr:nth-child(even) {
+		background-color: whitesmoke;
+		}
+		tbody tr:nth-child(odd) {
+		background-color:	white;
+		}
+	</style>
 </head>
 <body>
     <!-- add table here -->
+	<table>
+		 
+		<thead> 
+		<tr>
+			<th>NAME</th>
+			<th>KILLS</th>
+			<th>SAVED</th>
+			<th>DEATHS</th>
+			<th>REVIVES</th>
+			<th>WIN</th>
+		</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Hackerman</td>
+				<td>10</td>
+				<td>0</td>
+				<td>1</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td>Cool Doggo</td>
+				<td>13</td>
+				<td>4</td>
+				<td>8</td>
+				<td>7</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Andrews</td>
+				<td>19</td>
+				<td>2</td>
+				<td>10</td>
+				<td>11</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td>Strawberry</td>
+				<td>2</td>
+				<td>9</td>
+				<td>3</td>
+				<td>5</td>
+				<td>1</td>
+			</tr>
+		</tbody>
+	</table>
 
         
 </body>
